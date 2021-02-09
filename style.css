@@ -1,0 +1,198 @@
+
+/* large page  */
+ul {
+    
+    list-style-type: none;
+    width: 460px;
+    margin: 0  auto ;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    /* border: solid gray;    */
+
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+     color: black; 
+    text-align: center;
+    padding: 3px 20px;
+    text-decoration: none;
+    border: solid gray;
+    border-width:  thin;
+    font-family: Impact,  sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.25rem; 
+    min-width:107px;
+   
+  }
+  
+  li a:hover {
+    background-color: #111;
+   color: white
+  }
+ 
+  ul > p {
+   
+    text-align: center;
+  }
+
+
+  #myFitGuide .materials {
+       float: center;
+       word-spacing: 70px ;
+       vertical-align: center;
+       /* line-height: 0%;   */
+        font-family:  sans-serif ; 
+         
+    }
+   .materials .pourcentagea {
+      word-spacing: 70px;
+      text-decoration: none;
+      font-size: 250%;
+      line-height: 0%; 
+      
+    
+    }
+
+   .materials .materb{
+  word-spacing: 70px;
+  font-size: 150% ;
+  text-align: center;
+  line-height: 0%;  
+
+    }
+
+     /* em{
+      /* text-decoration: underline;
+           padding-bottom: 15px; 
+            border-bottom-style: solid; 
+            border-bottom-width: 3.1px; 
+            width: fit-content; 
+            font-family:sans-serif;
+     
+    } */
+     
+     .ref::before {
+       /* padding-bottom: 15px; 
+      border-bottom-style: solid; 
+      border-bottom-width: 3.1px;  
+      width: fit-content; 
+      /* font-family:sans-serif; */
+      /* content:"wool";
+       text-decoration: underline;  */ 
+       /* line-height:  1rem;
+       font-family: sans-serif; */
+       content:"wool";
+       padding-bottom: 15px; 
+       border-bottom-style: solid; 
+       border-bottom-width: 3.1px;  
+       width: fit-content; 
+    
+     }
+
+
+      .accordion {
+      display: none;  
+      }
+   
+  
+/* phone size page */
+
+  @media screen and (max-width: 767px){
+   /* .toggle-button {
+     display: flex;
+   } */
+   .navbar-links {
+       display: none;  
+      width: 100%;
+   }
+   .accordion{
+    max-width:1000px ;
+    display: block;
+   }
+  
+   .accordion-item {
+     background-color: #fff;
+     color: #111;
+     margin: none;
+     border-radius: none;
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
+   }
+ 
+   .accordion-item-header{
+      padding:0.5rem 3rem 0.5rem 1rem ; 
+     min-width: 3.5rem;
+     line-height: 1.25rem;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     position: relative;
+     cursor: pointer;
+     font-family: sans-serif;
+   }
+     .accordion-item-header::after {
+       content:"\2212";
+       font-size: 1rem;
+       position: absolute;
+       right: 1rem;
+       border-image: none;
+     }
+     .accordion-item-header.active::after{
+       content:"\002B";
+      
+     }
+ 
+     .accordion-item-body{
+       display: none;
+       padding: 1rem;
+       line-height: 1.5rem;
+       /* border-top: 3px solid gray; */
+       /* border-image: none; */
+ 
+     }
+      .accordion-item-header.active + .accordion-item-body{
+     display: block;
+   }
+      .accordion-body-content.bari {
+     height: 3px;
+     width: 100%;
+     background-color: black;
+     border-radius: 10px;
+       }
+ 
+      .accordion-body-content .pourcentage {
+   word-spacing: 50px;
+   font-size: 200%;
+   text-align: center;
+   line-height: 0%;  
+        }
+
+
+    .accordion-body-content .mater {
+  word-spacing: 50px;
+  font-size: 150% ;
+  text-align: center;
+  line-height: 0%;  
+
+ }
+
+    .refb::before {
+  content:"wool";
+  padding-bottom: 15px; 
+  border-bottom-style: solid; 
+  border-bottom-width: 3.1px;  
+  width: fit-content; 
+ }
+ 
+   }
+ 
+    
+  
+   
+ 
